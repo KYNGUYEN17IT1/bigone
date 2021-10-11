@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".activity.RegistrationActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="one"
+        android:textStyle="bold"
+        android:textSize="100dp"
+        android:textColor="#0BBFAA"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/phoneAuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/textview1"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại:"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:ccp_defaultNameCode="VN"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/phoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/phone"
+            android:hint="Nhập số điện thoại của bạn vào đây..."
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:backgroundTint="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/codeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:hint="Nhập mã của bạn ở đây..."
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:layout_below="@+id/phoneAuth"
+        android:drawableLeft="@drawable/password"
+        android:drawableTint="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/continueNextButton"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/codeText"
+        android:layout_centerHorizontal="true"
+        android:text="Tiếp tục"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:backgroundTint="#dc3545"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+</LinearLayout>

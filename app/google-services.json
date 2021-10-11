@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "485986601447",
+    "project_id": "oneone-c321d",
+    "storage_bucket": "oneone-c321d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485986601447:android:041a1779c6ba64d0b31542",
+        "android_client_info": {
+          "package_name": "com.bigone.oneone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485986601447-8umbeep8sl52e31a8g12ddkjo2r0diur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bigone.oneone",
+            "certificate_hash": "bbc82fcb61fae9f94f4bd32cc4fb1da7aba43363"
+          }
+        },
+        {
+          "client_id": "485986601447-aqrma42aep2nrlo53u4prfqcbp4418ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAE53VH_Is3LnAmj0foJ3aHDSoNG9jUj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485986601447-aqrma42aep2nrlo53u4prfqcbp4418ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

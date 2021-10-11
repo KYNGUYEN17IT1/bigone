@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/virus"
+        android:title="Covid-19" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/navigation_logout"
+        android:icon="@drawable/logoutdown"
+        android:title="Đăng xuất" />
+
+</menu>
